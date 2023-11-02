@@ -34,6 +34,7 @@ apt-get install -y --no-install-recommends \
   curl \
   gnupg \
   python3 \
+  python3-dev \
   python3-pip \
   software-properties-common \
   wget
