@@ -128,6 +128,7 @@ apt-get install -y --no-install-recommends \
   zip \
   zlib1g-dev
 
+# download, build and install the specific boost version from source given by the BOOST_VERSION ARG
 cd /tmp && \
   wget https://boostorg.jfrog.io/artifactory/main/release/${BOOST_VERSION}/source/boost_$(echo ${BOOST_VERSION} | tr . _).tar.bz2 && \
   tar --bzip2 -xf boost_$(echo ${BOOST_VERSION} | tr . _).tar.bz2 && \
